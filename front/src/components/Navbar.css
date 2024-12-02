@@ -1,0 +1,27 @@
+nav {
+  background-color: gray;
+  height: 3rem;
+  font-size: 1.5rem;
+
+  ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  a,
+  button {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.active {
+  text-decoration: underline;
+}
